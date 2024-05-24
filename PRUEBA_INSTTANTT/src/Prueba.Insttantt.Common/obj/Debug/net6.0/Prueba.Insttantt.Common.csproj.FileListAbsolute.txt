@@ -1,0 +1,12 @@
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\bin\Debug\net6.0\Prueba.Insttantt.Common.deps.json
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\bin\Debug\net6.0\Prueba.Insttantt.Common.dll
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\bin\Debug\net6.0\Prueba.Insttantt.Common.pdb
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\obj\Debug\net6.0\Prueba.Insttantt.Common.csproj.AssemblyReference.cache
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\obj\Debug\net6.0\Prueba.Insttantt.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\obj\Debug\net6.0\Prueba.Insttantt.Common.AssemblyInfoInputs.cache
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\obj\Debug\net6.0\Prueba.Insttantt.Common.AssemblyInfo.cs
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\obj\Debug\net6.0\Prueba.Insttantt.Common.csproj.CoreCompileInputs.cache
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\obj\Debug\net6.0\Prueba.Insttantt.Common.dll
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\obj\Debug\net6.0\refint\Prueba.Insttantt.Common.dll
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\obj\Debug\net6.0\Prueba.Insttantt.Common.pdb
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Common\obj\Debug\net6.0\ref\Prueba.Insttantt.Common.dll

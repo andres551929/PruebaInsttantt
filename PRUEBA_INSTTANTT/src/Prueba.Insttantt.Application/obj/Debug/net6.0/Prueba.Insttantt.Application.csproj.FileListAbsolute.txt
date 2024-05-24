@@ -1,0 +1,17 @@
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\bin\Debug\net6.0\Prueba.Insttantt.Application.deps.json
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\bin\Debug\net6.0\Prueba.Insttantt.Application.dll
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\bin\Debug\net6.0\Prueba.Insttantt.Application.pdb
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\Prueba.Insttantt.Application.csproj.AssemblyReference.cache
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\Prueba.Insttantt.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\Prueba.Insttantt.Application.AssemblyInfoInputs.cache
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\Prueba.Insttantt.Application.AssemblyInfo.cs
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\Prueba.Insttantt.Application.csproj.CoreCompileInputs.cache
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\Prueba.Insttantt.Application.dll
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\refint\Prueba.Insttantt.Application.dll
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\Prueba.Insttantt.Application.pdb
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\ref\Prueba.Insttantt.Application.dll
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\bin\Debug\net6.0\Prueba.Insttantt.Common.dll
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\bin\Debug\net6.0\Prueba.Insttantt.Domain.dll
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\bin\Debug\net6.0\Prueba.Insttantt.Domain.pdb
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\bin\Debug\net6.0\Prueba.Insttantt.Common.pdb
+C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Application\obj\Debug\net6.0\Prueba.Insttantt.Application.csproj.CopyComplete

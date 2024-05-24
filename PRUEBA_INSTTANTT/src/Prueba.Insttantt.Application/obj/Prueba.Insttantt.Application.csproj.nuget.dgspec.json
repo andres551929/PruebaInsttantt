@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Application\\Prueba.Insttantt.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj",
+        "projectName": "Prueba.Insttantt.Domain",
+        "projectPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Application\\Prueba.Insttantt.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Application\\Prueba.Insttantt.Application.csproj",
+        "projectName": "Prueba.Insttantt.Application",
+        "projectPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Application\\Prueba.Insttantt.Application.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj": {
+                "projectPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj"
+              },
+              "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Common\\Prueba.Insttantt.Common.csproj": {
+                "projectPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Common\\Prueba.Insttantt.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Common\\Prueba.Insttantt.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Common\\Prueba.Insttantt.Common.csproj",
+        "projectName": "Prueba.Insttantt.Common",
+        "projectPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Common\\Prueba.Insttantt.Common.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
