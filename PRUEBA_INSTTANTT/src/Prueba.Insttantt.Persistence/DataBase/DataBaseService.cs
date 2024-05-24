@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Prueba.Insttantt.Application.DataBase;
+using Prueba.Insttantt.Domain.Entities.Flujo;
 using Prueba.Insttantt.Domain.Entities.Test;
 using Prueba.Insttantt.Persistence.Configuration;
 
@@ -12,7 +13,7 @@ namespace Prueba.Insttantt.Persistence.DataBase
 
         }
 
-        //public DbSet<PruebaEntity> Prueba { get; set; }
+        public DbSet<FlujoEntity> Flujo { get; set; }
         public DbSet<TestEntity> Test { get; set; }
 
 
@@ -29,7 +30,7 @@ namespace Prueba.Insttantt.Persistence.DataBase
 
         private void EntityConfiguration(ModelBuilder modelBuilder)
         {
-            //new PruebaConfiguration(modelBuilder.Entity<PruebaEntity>());
+            new FlujoConfiguration(modelBuilder.Entity<FlujoEntity>());
             new TestConfiguration(modelBuilder.Entity<TestEntity>());
         }
     }

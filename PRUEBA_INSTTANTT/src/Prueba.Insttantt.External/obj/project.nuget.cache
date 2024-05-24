@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7crmh4oT7mNzHpxfcz7N0HzTlLLakZdxpGqp03IMeXF2kEEZKIzZ8VWp3Nokx1wZwaFeKgzx7Byvxzbosgj/6Q==",
+  "dgSpecHash": "3LQzdcR+61EDSGGVQz+C31xB3GYSJ65dS86lhQnh0njDkfMTL5/PHVJQPPco3OTiHOz/HGnEuiHR7grlcC9rPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.External\\Prueba.Insttantt.External.csproj",
+  "projectFilePath": "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.External\\Prueba.Insttantt.External.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

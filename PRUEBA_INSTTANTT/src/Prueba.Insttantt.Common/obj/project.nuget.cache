@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y2bDAHmEAGvDq1eT3naZsVYbGiTppHIj5L334kUPVyMgVMSjo/lIC3HjFGKKmy2u1edrXjYibp2C5SpTgF6yiQ==",
+  "dgSpecHash": "Sy7aTRi/mgVVIX0CbJgEArYJ4N7dCVbanFTTvugzovtbtr1Z4lay5YWDY+/9qLzNLP6tDksFdc0VW0O0MmaqLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Common\\Prueba.Insttantt.Common.csproj",
+  "projectFilePath": "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Common\\Prueba.Insttantt.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],

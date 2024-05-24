@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Prueba.Insttantt.Application.DataBase.Flujo.Commands.CreateFlujo;
 using Prueba.Insttantt.Application.DataBase.Test.Commands.CreateTest;
+using Prueba.Insttantt.Domain.Entities.Flujo;
 using Prueba.Insttantt.Domain.Entities.Test;
 
 namespace Prueba.Insttantt.Application.Configuration
@@ -11,6 +13,7 @@ namespace Prueba.Insttantt.Application.Configuration
             //#region user
             //CreateMap<PruebaEntity, CreatePruebaModel>().ReverseMap();
             CreateMap<TestEntity, CreateTestModel>().ReverseMap();
+            CreateMap<FlujoEntity, CreateFlujoModel>().ReverseMap();
             //CreateMap<UserEntity, UpdateUserModel>().ReverseMap();
             //CreateMap<UserEntity, GetAllUserModel>().ReverseMap();
             //CreateMap<UserEntity, GetUserByIdModel>().ReverseMap();

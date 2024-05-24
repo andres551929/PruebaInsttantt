@@ -2,7 +2,9 @@
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using Prueba.Insttantt.Application.Configuration;
+using Prueba.Insttantt.Application.DataBase.Flujo.Commands.CreateFlujo;
 using Prueba.Insttantt.Application.DataBase.Test.Commands.CreateTest;
+using Prueba.Insttantt.Application.FluentValidation.Flujo;
 using Prueba.Insttantt.Application.FluentValidation.Test;
 
 namespace Prueba.Insttantt.Application
@@ -19,10 +21,11 @@ namespace Prueba.Insttantt.Application
             services.AddSingleton(mapper.CreateMapper());
             //services.AddTransient<ICreatePruebaCommand, CreatePruebaCommand>();
             services.AddTransient<ICreateTestCommand, CreateTestCommand>();
+            services.AddTransient<ICreateFlujoCommand, CreateFlujoCommand>();
 
 
             #region Validator
-            //services.AddScoped<IValidator<CreatePruebaModel>, CreatePruebaValidator>();
+            services.AddScoped<IValidator<CreateFlujoModel>, CreateFlujoValidator>();
             services.AddScoped<IValidator<CreateTestModel>, CreateTestValidator>();
             #endregion
             return services;

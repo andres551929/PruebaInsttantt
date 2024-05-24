@@ -6139,11 +6139,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.External\\Prueba.Insttantt.External.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.External\\Prueba.Insttantt.External.csproj",
       "projectName": "Prueba.Insttantt.External",
-      "projectPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.External\\Prueba.Insttantt.External.csproj",
+      "projectPath": "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.External\\Prueba.Insttantt.External.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.External\\obj\\",
+      "outputPath": "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.External\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6160,8 +6160,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Application\\Prueba.Insttantt.Application.csproj": {
-              "projectPath": "C:\\Users\\andre\\PRUEBA INSTTANTT\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Application\\Prueba.Insttantt.Application.csproj"
+            "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Application\\Prueba.Insttantt.Application.csproj": {
+              "projectPath": "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttantt.Application\\Prueba.Insttantt.Application.csproj"
             }
           }
         }

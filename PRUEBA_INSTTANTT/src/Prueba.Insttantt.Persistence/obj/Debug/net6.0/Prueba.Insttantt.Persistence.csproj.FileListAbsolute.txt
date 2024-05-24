@@ -17,3 +17,22 @@ C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistenc
 C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Application.pdb
 C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Common.pdb
 C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\Prueba.Insttantt.Persistence.csproj.CopyComplete
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Persistence.deps.json
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Persistence.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Persistence.pdb
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Application.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Common.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Domain.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Domain.pdb
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Application.pdb
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\bin\Debug\net6.0\Prueba.Insttantt.Common.pdb
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\Prueba.Insttantt.Persistence.csproj.AssemblyReference.cache
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\Prueba.Insttantt.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\Prueba.Insttantt.Persistence.AssemblyInfoInputs.cache
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\Prueba.Insttantt.Persistence.AssemblyInfo.cs
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\Prueba.Insttantt.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\Prueba.Insttantt.Persistence.csproj.CopyComplete
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\Prueba.Insttantt.Persistence.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\refint\Prueba.Insttantt.Persistence.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\Prueba.Insttantt.Persistence.pdb
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttantt.Persistence\obj\Debug\net6.0\ref\Prueba.Insttantt.Persistence.dll

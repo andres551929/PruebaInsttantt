@@ -10,3 +10,15 @@ C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\
 C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\refint\Prueba.Insttantt.Domain.dll
 C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\Prueba.Insttantt.Domain.pdb
 C:\Users\andre\PRUEBA INSTTANTT\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\ref\Prueba.Insttantt.Domain.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\bin\Debug\net6.0\Prueba.Insttantt.Domain.deps.json
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\bin\Debug\net6.0\Prueba.Insttantt.Domain.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\bin\Debug\net6.0\Prueba.Insttantt.Domain.pdb
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\Prueba.Insttantt.Domain.csproj.AssemblyReference.cache
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\Prueba.Insttantt.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\Prueba.Insttantt.Domain.AssemblyInfoInputs.cache
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\Prueba.Insttantt.Domain.AssemblyInfo.cs
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\Prueba.Insttantt.Domain.csproj.CoreCompileInputs.cache
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\Prueba.Insttantt.Domain.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\refint\Prueba.Insttantt.Domain.dll
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\Prueba.Insttantt.Domain.pdb
+C:\Users\andre\prueba\PruebaInsttantt-main\PruebaInsttantt-main\PRUEBA_INSTTANTT\src\Prueba.Insttant.Domain\obj\Debug\net6.0\ref\Prueba.Insttantt.Domain.dll
