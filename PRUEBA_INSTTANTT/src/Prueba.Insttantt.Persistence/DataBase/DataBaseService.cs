@@ -5,7 +5,6 @@ using Prueba.Insttantt.Domain.Entities.DependenciaPaso;
 using Prueba.Insttantt.Domain.Entities.Flujo;
 using Prueba.Insttantt.Domain.Entities.Paso;
 using Prueba.Insttantt.Domain.Entities.PasoCampo;
-using Prueba.Insttantt.Domain.Entities.Test;
 using Prueba.Insttantt.Persistence.Configuration;
 
 namespace Prueba.Insttantt.Persistence.DataBase
@@ -18,10 +17,9 @@ namespace Prueba.Insttantt.Persistence.DataBase
         }
 
         public DbSet<FlujoEntity> Flujo { get; set; }
-        public DbSet<TestEntity> Test { get; set; }
         public DbSet<DependenciaPasoEntity> DependenciaPaso { get; set; }
         public DbSet<CampoEntity> Campo { get; set; }
-        public DbSet<PasoCampoEntity> PasoCampo { get; set; }   
+        public DbSet<PasoCampoEntity> PasoCampo { get; set; }
         public DbSet<PasoEntity> Paso { get; set; }
 
 
@@ -43,7 +41,6 @@ namespace Prueba.Insttantt.Persistence.DataBase
             new CampoConfiguration(modelBuilder.Entity<CampoEntity>());
             new PasoConfiguration(modelBuilder.Entity<PasoEntity>());
             new DependenciaPasoConfiguration(modelBuilder.Entity<DependenciaPasoEntity>());
-            new TestConfiguration(modelBuilder.Entity<TestEntity>());
         }
     }
 }

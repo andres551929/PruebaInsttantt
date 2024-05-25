@@ -7,13 +7,11 @@ using Prueba.Insttantt.Application.DataBase.DependenciaPaso.Commands;
 using Prueba.Insttantt.Application.DataBase.Flujo.Commands.CreateFlujo;
 using Prueba.Insttantt.Application.DataBase.Paso.Commands.CreatePaso;
 using Prueba.Insttantt.Application.DataBase.PasoCampo.Commands;
-using Prueba.Insttantt.Application.DataBase.Test.Commands.CreateTest;
 using Prueba.Insttantt.Application.FluentValidation.Campo;
 using Prueba.Insttantt.Application.FluentValidation.DependenciaPaso;
 using Prueba.Insttantt.Application.FluentValidation.Flujo;
 using Prueba.Insttantt.Application.FluentValidation.Paso;
 using Prueba.Insttantt.Application.FluentValidation.PasoCampo;
-using Prueba.Insttantt.Application.FluentValidation.Test;
 
 namespace Prueba.Insttantt.Application
 {
@@ -28,7 +26,6 @@ namespace Prueba.Insttantt.Application
 
             services.AddSingleton(mapper.CreateMapper());
             //services.AddTransient<ICreatePruebaCommand, CreatePruebaCommand>();
-            services.AddTransient<ICreateTestCommand, CreateTestCommand>();
             services.AddTransient<ICreateFlujoCommand, CreateFlujoCommand>();
             services.AddTransient<ICreatePasoCommand, CreatePasoCommand>();
             services.AddTransient<ICreateDependenciaPasoCommand, CreateDependenciaPasoCommand>();
@@ -42,7 +39,6 @@ namespace Prueba.Insttantt.Application
             services.AddScoped<IValidator<CreateDependenciaPasoModel>, CreateDependenciaPasoValidator>();
             services.AddScoped<IValidator<CreateCampoModel>, CreateCampoValidator>();
             services.AddScoped<IValidator<CreatePasoCampoModel>, CreatePasoCampoValidator>();
-            services.AddScoped<IValidator<CreateTestModel>, CreateTestValidator>();
             #endregion
             return services;
         }
