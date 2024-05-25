@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace Prueba.Insttantt.Persistence.Configuration
 {
-    public class PasoEntityConfiguration
+    public class PasoConfiguration
     {
-        public PasoEntityConfiguration(EntityTypeBuilder<PasoEntity> entityBuilder)
+        public PasoConfiguration(EntityTypeBuilder<PasoEntity> entityBuilder)
         {
             entityBuilder.HasKey(x => x.PasoId);
             entityBuilder.Property(x => x.FlujoId).IsRequired();

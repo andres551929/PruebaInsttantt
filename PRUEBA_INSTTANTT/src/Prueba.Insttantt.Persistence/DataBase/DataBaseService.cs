@@ -35,8 +35,8 @@ namespace Prueba.Insttantt.Persistence.DataBase
         private void EntityConfiguration(ModelBuilder modelBuilder)
         {
             new FlujoConfiguration(modelBuilder.Entity<FlujoEntity>());
-            new PasoEntityConfiguration (modelBuilder.Entity<PasoEntity>());
-            //new PasoEntityConfiguration(modelBuilder.Entity<PasoEntity>());
+            new PasoConfiguration(modelBuilder.Entity<PasoEntity>());
+            //new EntityConfiguration(modelBuilder.Entity<PasoEntity>());
             new TestConfiguration(modelBuilder.Entity<TestEntity>());
         }
     }
