@@ -14,9 +14,9 @@ namespace Prueba.Insttantt.Domain.Entities.Paso
         public DateTime FechaActualizacion { get; set; }
         public string Estado { get; set; }
         public FlujoEntity Flujo { get; set; }
-        //public ICollection<DependenciaPasoEntity> DependenciaPasos { get; set; }
+        public ICollection<DependenciaPasoEntity> DependenciaPasos { get; set; }
 
-        //public ICollection<DependenciaPasoEntity> DependenciaPasosDependiente { get; set; }
+        public ICollection<DependenciaPasoEntity> DependenciaPasosDependiente { get; set; }
 
 
     }

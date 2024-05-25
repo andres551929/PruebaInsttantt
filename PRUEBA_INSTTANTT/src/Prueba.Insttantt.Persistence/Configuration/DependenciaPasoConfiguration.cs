@@ -20,13 +20,13 @@ namespace Prueba.Insttantt.Persistence.Configuration
             entityBuilder.Property(x => x.Estado).IsRequired();
 
 
-//            entityBuilder.HasOne(x => x.Paso)
-//        .WithMany(x => x.DependenciaPasos)
-//           .HasForeignKey(x => x.PasoId);
+            entityBuilder.HasOne(x => x.Paso)
+        .WithMany(x => x.DependenciaPasos)
+           .HasForeignKey(x => x.PasoId);
 
-//            entityBuilder.HasOne(x => x.Paso)
-//.WithMany(x => x.DependenciaPasosDependiente)
-//.HasForeignKey(x => x.PasoIdDependiente);
+            entityBuilder.HasOne(x => x.PasoDependiente)
+.WithMany(x => x.DependenciaPasosDependiente)
+.HasForeignKey(x => x.PasoIdDependiente);
         }
 
 

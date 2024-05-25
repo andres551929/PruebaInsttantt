@@ -17,7 +17,7 @@ namespace Prueba.Insttantt.Persistence.DataBase
 
         public DbSet<FlujoEntity> Flujo { get; set; }
         public DbSet<TestEntity> Test { get; set; }
-        //public DbSet<DependenciaPasoEntity> DependenciaPaso { get; set; }
+        public DbSet<DependenciaPasoEntity> DependenciaPaso { get; set; }
         public DbSet<PasoEntity> Paso { get; set; }
 
 
@@ -36,7 +36,7 @@ namespace Prueba.Insttantt.Persistence.DataBase
         {
             new FlujoConfiguration(modelBuilder.Entity<FlujoEntity>());
             new PasoConfiguration(modelBuilder.Entity<PasoEntity>());
-            //new EntityConfiguration(modelBuilder.Entity<PasoEntity>());
+            new DependenciaPasoConfiguration(modelBuilder.Entity<DependenciaPasoEntity>());
             new TestConfiguration(modelBuilder.Entity<TestEntity>());
         }
     }

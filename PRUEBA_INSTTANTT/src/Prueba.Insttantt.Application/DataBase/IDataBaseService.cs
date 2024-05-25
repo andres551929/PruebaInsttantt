@@ -11,7 +11,7 @@ namespace Prueba.Insttantt.Application.DataBase
         DbSet<FlujoEntity> Flujo { get; set; }
         DbSet<PasoEntity> Paso { get; set; }
         DbSet<TestEntity> Test { get; set; }
-        //DbSet<DependenciaPasoEntity> DependenciaPaso { get; set; }
+        DbSet<DependenciaPasoEntity> DependenciaPaso { get; set; }
 
         Task<bool> SaveAsync();
     }
