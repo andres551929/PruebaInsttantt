@@ -9,6 +9,5 @@ namespace Prueba.Insttantt.Application.DataBase.Flujo.Commands.CreateFlujo
     public class CreateFlujoModel
     {
         public string Nombre { get; set; }
-        public string Descripcion { get; set; }
     }
 }

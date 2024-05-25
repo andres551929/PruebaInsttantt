@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Prueba.Insttantt.Application.DataBase;
+using Prueba.Insttantt.Domain.Entities.DependenciaPaso;
 using Prueba.Insttantt.Domain.Entities.Flujo;
+using Prueba.Insttantt.Domain.Entities.Paso;
 using Prueba.Insttantt.Domain.Entities.Test;
 using Prueba.Insttantt.Persistence.Configuration;
 
@@ -15,6 +17,8 @@ namespace Prueba.Insttantt.Persistence.DataBase
 
         public DbSet<FlujoEntity> Flujo { get; set; }
         public DbSet<TestEntity> Test { get; set; }
+        //public DbSet<DependenciaPasoEntity> DependenciaPaso { get; set; }
+        public DbSet<PasoEntity> Paso { get; set; }
 
 
         public async Task<bool> SaveAsync()
@@ -31,6 +35,8 @@ namespace Prueba.Insttantt.Persistence.DataBase
         private void EntityConfiguration(ModelBuilder modelBuilder)
         {
             new FlujoConfiguration(modelBuilder.Entity<FlujoEntity>());
+            new PasoEntityConfiguration (modelBuilder.Entity<PasoEntity>());
+            //new PasoEntityConfiguration(modelBuilder.Entity<PasoEntity>());
             new TestConfiguration(modelBuilder.Entity<TestEntity>());
         }
     }

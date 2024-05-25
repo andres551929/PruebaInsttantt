@@ -9,9 +9,14 @@ namespace Prueba.Insttantt.Persistence.Configuration
         {
             entityBuilder.HasKey(x => x.FlujoId);
             entityBuilder.Property(x => x.Nombre).IsRequired();
-            entityBuilder.Property(x => x.Descripcion).IsRequired();
             entityBuilder.Property(x => x.FechaCreacion).IsRequired();
             entityBuilder.Property(x => x.FechaActualizacion).IsRequired();
+
+            entityBuilder.HasMany(x => x.Pasos)
+          .WithOne(x => x.Flujo)
+           .HasForeignKey(x => x.FlujoId);
+
+
         }
     }
 }

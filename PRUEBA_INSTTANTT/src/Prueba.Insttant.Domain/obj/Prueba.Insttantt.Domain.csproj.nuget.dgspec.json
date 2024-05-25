@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj": {}
+    "C:\\Users\\andre\\sss\\PruebaInsttantt\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj": {
+    "C:\\Users\\andre\\sss\\PruebaInsttantt\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\sss\\PruebaInsttantt\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj",
         "projectName": "Prueba.Insttantt.Domain",
-        "projectPath": "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj",
+        "projectPath": "C:\\Users\\andre\\sss\\PruebaInsttantt\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\Prueba.Insttantt.Domain.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\prueba\\PruebaInsttantt-main\\PruebaInsttantt-main\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\obj\\",
+        "outputPath": "C:\\Users\\andre\\sss\\PruebaInsttantt\\PRUEBA_INSTTANTT\\src\\Prueba.Insttant.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",

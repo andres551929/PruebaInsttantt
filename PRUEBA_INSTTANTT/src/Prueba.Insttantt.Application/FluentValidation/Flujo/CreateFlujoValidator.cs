@@ -14,7 +14,6 @@ namespace Prueba.Insttantt.Application.FluentValidation.Flujo
         public CreateFlujoValidator()
         {
             RuleFor(x => x.Nombre).NotNull().WithMessage("El campo no puede ser nulo").NotEmpty().MaximumLength(50);
-            RuleFor(x => x.Descripcion).NotNull().WithMessage("El campo no puede ser nulo").NotEmpty().MaximumLength(50);
 
         }
     }
