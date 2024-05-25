@@ -18,6 +18,10 @@ namespace Prueba.Insttantt.Persistence.Configuration
             entityBuilder.Property(x => x.FechaCreacion).IsRequired();
             entityBuilder.Property(x => x.FechaActualizacion).IsRequired();
             entityBuilder.Property(x => x.Estado).IsRequired();
+
+            entityBuilder.HasMany(x => x.PasosCampos)
+ .WithOne(x => x.Campo)
+ .HasForeignKey(x => x.CampoId);
         }
     }
 }

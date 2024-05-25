@@ -34,6 +34,10 @@ namespace Prueba.Insttantt.Persistence.Configuration
 .WithOne(x => x.PasoDependiente)
 .HasForeignKey(x => x.PasoIdDependiente);
 
+            entityBuilder.HasMany(x => x.PasosCampos)
+ .WithOne(x => x.Paso)
+ .HasForeignKey(x => x.PasoId);
+
         }
 
     }

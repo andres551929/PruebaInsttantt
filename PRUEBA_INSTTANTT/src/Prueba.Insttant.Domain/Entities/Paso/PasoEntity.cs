@@ -1,5 +1,6 @@
 ﻿using Prueba.Insttantt.Domain.Entities.DependenciaPaso;
 using Prueba.Insttantt.Domain.Entities.Flujo;
+using Prueba.Insttantt.Domain.Entities.PasoCampo;
 
 namespace Prueba.Insttantt.Domain.Entities.Paso
 {
@@ -17,6 +18,8 @@ namespace Prueba.Insttantt.Domain.Entities.Paso
         public ICollection<DependenciaPasoEntity> DependenciaPasos { get; set; }
 
         public ICollection<DependenciaPasoEntity> DependenciaPasosDependiente { get; set; }
+
+        public ICollection<PasoCampoEntity> PasosCampos { get; set; }
 
 
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Prueba.Insttantt.Domain.Entities.PasoCampo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,7 @@ namespace Prueba.Insttantt.Domain.Entities.Campo
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaActualizacion { get; set; }
         public string Estado { get; set; }
+        public ICollection<PasoCampoEntity> PasosCampos { get; set; }
+
     }
 }
