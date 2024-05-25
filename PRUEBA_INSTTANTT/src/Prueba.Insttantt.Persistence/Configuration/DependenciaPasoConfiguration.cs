@@ -21,12 +21,12 @@ namespace Prueba.Insttantt.Persistence.Configuration
 
 
             entityBuilder.HasOne(x => x.Paso)
-        .WithMany(x => x.DependenciaPasos)
+            .WithMany(x => x.DependenciaPasos)
            .HasForeignKey(x => x.PasoId);
 
             entityBuilder.HasOne(x => x.PasoDependiente)
-.WithMany(x => x.DependenciaPasosDependiente)
-.HasForeignKey(x => x.PasoIdDependiente);
+            .WithMany(x => x.DependenciaPasosDependiente)
+            .HasForeignKey(x => x.PasoIdDependiente);
         }
 
 

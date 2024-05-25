@@ -26,13 +26,13 @@ namespace Prueba.Insttantt.Persistence.Configuration
            .WithMany(x => x.Pasos)
               .HasForeignKey(x => x.FlujoId);
 
-//            entityBuilder.HasMany(x => x.DependenciaPasos)
-//  .WithOne(x => x.Paso)
-//   .HasForeignKey(x => x.PasoId);
+            entityBuilder.HasMany(x => x.DependenciaPasos)
+  .WithOne(x => x.Paso)
+   .HasForeignKey(x => x.PasoId);
 
-//            entityBuilder.HasMany(x => x.DependenciaPasosDependiente)
-//.WithOne(x => x.PasoDependiente)
-//.HasForeignKey(x => x.PasoIdDependiente);
+            entityBuilder.HasMany(x => x.DependenciaPasosDependiente)
+.WithOne(x => x.PasoDependiente)
+.HasForeignKey(x => x.PasoIdDependiente);
 
         }
 

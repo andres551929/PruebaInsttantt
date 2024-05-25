@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Prueba.Insttantt.Domain.Entities.Campo;
 using Prueba.Insttantt.Domain.Entities.DependenciaPaso;
 using Prueba.Insttantt.Domain.Entities.Flujo;
 using Prueba.Insttantt.Domain.Entities.Paso;
@@ -11,6 +12,7 @@ namespace Prueba.Insttantt.Application.DataBase
         DbSet<FlujoEntity> Flujo { get; set; }
         DbSet<PasoEntity> Paso { get; set; }
         DbSet<TestEntity> Test { get; set; }
+         DbSet<CampoEntity> Campo { get; set; }
         DbSet<DependenciaPasoEntity> DependenciaPaso { get; set; }
 
         Task<bool> SaveAsync();
