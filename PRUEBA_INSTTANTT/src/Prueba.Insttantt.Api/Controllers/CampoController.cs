@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Prueba.Insttantt.Application.DataBase.Campo.Commands;
 using Prueba.Insttantt.Application.DataBase.Campo.Queries.GetAllCampos;
+using Prueba.Insttantt.Application.DataBase.Campo.Queries.GetCampoById;
+using Prueba.Insttantt.Application.DataBase.Paso.Queries.GetPasoByFlujo;
 using Prueba.Insttantt.Application.Exceptions;
 using Prueba.Insttantt.Application.Features;
 
@@ -34,6 +36,28 @@ namespace Prueba.Insttantt.Api.Controllers
             if (data == null || data.Count == 0)
             {
                 return StatusCode(StatusCodes.Status404NotFound, ResponseApiService.Response(StatusCodes.Status404NotFound, data));
+            }
+            else
+            {
+                return StatusCode(StatusCodes.Status200OK, ResponseApiService.Response(StatusCodes.Status200OK, data));
+
+            }
+        }
+
+        [HttpGet("get-by-campoId")]
+
+        public async Task<IActionResult> GetPasoByFlujoNumber([FromQuery] int campoId, [FromServices] IGetCampoByIdQuery getCampoByIdQuery)
+        {
+            if (campoId == 0)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ResponseApiService.Response(StatusCodes.Status400BadRequest));
+            }
+            var data = await getCampoByIdQuery.Execute(campoId);
+
+            if (data.Count == 0)
+            {
+                return StatusCode(StatusCodes.Status400BadRequest, ResponseApiService.Response(StatusCodes.Status400BadRequest));
+
             }
             else
             {
