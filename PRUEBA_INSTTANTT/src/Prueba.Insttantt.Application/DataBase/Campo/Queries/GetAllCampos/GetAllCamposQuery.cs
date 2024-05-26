@@ -1,10 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Prueba.Insttantt.Application.DataBase.Paso.Queries.GetAllPasos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prueba.Insttantt.Application.DataBase.Campo.Queries.GetAllCampos
 {
@@ -20,13 +14,12 @@ namespace Prueba.Insttantt.Application.DataBase.Campo.Queries.GetAllCampos
         public async Task<List<GetAllCamposModel>> Execute()
         {
             var result = await (from campo in _dataBaseService.Campo
-
                                 where campo.Estado == "A"
                                 select new GetAllCamposModel
                                 {
+                                    CampoId = campo.CampoId,
                                     Nombre = campo.Nombre
                                 }).ToListAsync();
-
             return result;
         }
 

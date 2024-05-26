@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Prueba.Insttantt.Application.DataBase.Campo.Queries.GetAllCampos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,8 +22,16 @@ namespace Prueba.Insttantt.Application.DataBase.Flujo.Queries.GetAllFlujos
 
         public async Task<List<GetAllFlujosModel>> Execute()
         {
-            var listEntity = await _dataBaseService.Flujo.ToListAsync();
-            return _mapper.Map<List<GetAllFlujosModel>>(listEntity);
+            var result = await (from flujo in _dataBaseService.Flujo
+
+                                where flujo.Estado == "A"
+                                select new GetAllFlujosModel
+                                {
+                                    FlujoId = flujo.FlujoId,
+                                    Nombre = flujo.Nombre
+                                }).ToListAsync();
+
+            return result;
         }
     }
 }

@@ -19,6 +19,7 @@ namespace Prueba.Insttantt.Application.DataBase.DependenciaPaso.Queries.GetAllDe
                                 on dependenciaPaso.PasoId equals paso.PasoId
                                 join pasodependiente in _dataBaseService.Paso
                                 on dependenciaPaso.PasoIdDependiente equals pasodependiente.PasoId
+                                where dependenciaPaso.Estado == "A"
                                 select new GetAllDependenciaPasosModel
                                 {
                                    DependenciaPasoId  = dependenciaPaso.DependenciaPasoId,

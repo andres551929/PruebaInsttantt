@@ -11,6 +11,7 @@ using Prueba.Insttantt.Application.DataBase.Flujo.Queries.GetAllFlujos;
 using Prueba.Insttantt.Application.DataBase.Paso.Commands.CreatePaso;
 using Prueba.Insttantt.Application.DataBase.Paso.Queries.GetAllPasos;
 using Prueba.Insttantt.Application.DataBase.PasoCampo.Commands;
+using Prueba.Insttantt.Application.DataBase.PasoCampo.Queries.GetllPasoCampos;
 using Prueba.Insttantt.Application.FluentValidation.Campo;
 using Prueba.Insttantt.Application.FluentValidation.DependenciaPaso;
 using Prueba.Insttantt.Application.FluentValidation.Flujo;
@@ -39,6 +40,7 @@ namespace Prueba.Insttantt.Application
             services.AddTransient<IGetAllPasosQuery, GetAllPasosQuery>();
             services.AddTransient<IGetAllDependenciaPasosQuery, GetAllDependenciaPasosQuery>();
             services.AddTransient<IGetAllCamposQuery, GetAllCamposQuery>();
+            services.AddTransient<IGetAllPasoCamposQuery, GetAllPasoCamposQuery>();
 
 
             #region Validator
