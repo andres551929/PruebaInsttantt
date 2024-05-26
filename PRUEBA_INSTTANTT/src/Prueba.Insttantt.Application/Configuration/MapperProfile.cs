@@ -7,6 +7,7 @@ using Prueba.Insttantt.Application.DataBase.Flujo.Commands.CreateFlujo;
 using Prueba.Insttantt.Application.DataBase.Flujo.Queries.GetAllFlujos;
 using Prueba.Insttantt.Application.DataBase.Paso.Commands.CreatePaso;
 using Prueba.Insttantt.Application.DataBase.Paso.Queries.GetAllPasos;
+using Prueba.Insttantt.Application.DataBase.Paso.Queries.GetPasoByFlujo;
 using Prueba.Insttantt.Application.DataBase.PasoCampo.Commands;
 using Prueba.Insttantt.Application.DataBase.PasoCampo.Queries.GetllPasoCampos;
 using Prueba.Insttantt.Domain.Entities.Campo;
@@ -33,6 +34,7 @@ namespace Prueba.Insttantt.Application.Configuration
             CreateMap<DependenciaPasoEntity, GetAllDependenciaPasosModel>().ReverseMap();
             CreateMap<CampoEntity, GetAllCamposModel>().ReverseMap();
             CreateMap<PasoCampoEntity, GetAllPasoCamposModel>().ReverseMap();
+            CreateMap<PasoEntity, GetPasoByFlujoModel>().ReverseMap();
 
             //CreateMap<UserEntity, UpdateUserModel>().ReverseMap();
             //CreateMap<UserEntity, GetAllUserModel>().ReverseMap();
