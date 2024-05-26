@@ -19,4 +19,8 @@
     <ProjectReference Include="..\Prueba.Insttantt.Common\Prueba.Insttantt.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DataBase\DependenciaPaso\Queries\GetAllDependenciaPasos\" />
+  </ItemGroup>
+
 </Project>

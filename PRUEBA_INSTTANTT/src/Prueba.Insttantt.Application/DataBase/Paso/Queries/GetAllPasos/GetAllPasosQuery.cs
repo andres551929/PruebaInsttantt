@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Prueba.Insttantt.Application.DataBase.Paso.Queries
+namespace Prueba.Insttantt.Application.DataBase.Paso.Queries.GetAllPasos
 {
     public class GetAllPasosQuery : IGetAllPasosQuery
     {
