@@ -24,5 +24,7 @@ namespace Prueba.Insttantt.Api.Controllers
 
             return StatusCode(StatusCodes.Status201Created, ResponseApiService.Response(StatusCodes.Status201Created, data));
         }
+
+
     }
 }

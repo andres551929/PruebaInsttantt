@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Prueba.Insttantt.Application.Configuration;
 using Prueba.Insttantt.Application.DataBase.Campo.Commands;
 using Prueba.Insttantt.Application.DataBase.DependenciaPaso.Commands;
+using Prueba.Insttantt.Application.DataBase.DependenciaPaso.Queries.GetAllDependenciaPasos;
 using Prueba.Insttantt.Application.DataBase.Flujo.Commands.CreateFlujo;
 using Prueba.Insttantt.Application.DataBase.Flujo.Queries.GetAllFlujos;
 using Prueba.Insttantt.Application.DataBase.Paso.Commands.CreatePaso;
@@ -35,6 +36,7 @@ namespace Prueba.Insttantt.Application
             services.AddTransient<ICreatePasoCampoCommand, CreatePasoCampoCommand>();
             services.AddTransient<IGetAllFlujosQuery, GetAllFlujosQuery>();
             services.AddTransient<IGetAllPasosQuery, GetAllPasosQuery>();
+            services.AddTransient<IGetAllDependenciaPasosQuery, GetAllDependenciaPasosQuery>();
 
 
             #region Validator
