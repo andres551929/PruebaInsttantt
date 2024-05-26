@@ -15,5 +15,7 @@ namespace Prueba.Insttantt.Application.DataBase.Paso.Queries.GetAllPasos
         public DateTime FechaCreacion { get; set; }
         public string NombreFlujo { get; set; }
         public int FlujoId { get; set; }
+
+       
     }
 }

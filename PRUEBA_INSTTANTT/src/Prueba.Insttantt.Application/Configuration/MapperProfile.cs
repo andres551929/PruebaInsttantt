@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Prueba.Insttantt.Application.DataBase.Campo.Commands;
+using Prueba.Insttantt.Application.DataBase.Campo.Queries.GetAllCampos;
 using Prueba.Insttantt.Application.DataBase.DependenciaPaso.Commands;
 using Prueba.Insttantt.Application.DataBase.DependenciaPaso.Queries.GetAllDependenciaPasos;
 using Prueba.Insttantt.Application.DataBase.Flujo.Commands.CreateFlujo;
@@ -29,6 +30,7 @@ namespace Prueba.Insttantt.Application.Configuration
             CreateMap<FlujoEntity, GetAllFlujosModel>().ReverseMap();
             CreateMap<PasoEntity, GetAllPasosModel>().ReverseMap();
             CreateMap<DependenciaPasoEntity, GetAllDependenciaPasosModel>().ReverseMap();
+            CreateMap<CampoEntity, GetAllCamposModel>().ReverseMap();
 
             //CreateMap<UserEntity, UpdateUserModel>().ReverseMap();
             //CreateMap<UserEntity, GetAllUserModel>().ReverseMap();

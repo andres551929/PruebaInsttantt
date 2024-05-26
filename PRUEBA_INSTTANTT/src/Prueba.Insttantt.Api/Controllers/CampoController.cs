@@ -1,7 +1,9 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using Prueba.Insttantt.Application.DataBase.Campo.Commands;
+using Prueba.Insttantt.Application.DataBase.Campo.Queries.GetAllCampos;
 using Prueba.Insttantt.Application.DataBase.DependenciaPaso.Commands;
+using Prueba.Insttantt.Application.DataBase.Flujo.Queries.GetAllFlujos;
 using Prueba.Insttantt.Application.Exceptions;
 using Prueba.Insttantt.Application.Features;
 
@@ -24,6 +26,22 @@ namespace Prueba.Insttantt.Api.Controllers
             var data = await createCampoCommand.Execute(model);
 
             return StatusCode(StatusCodes.Status201Created, ResponseApiService.Response(StatusCodes.Status201Created, data));
+        }
+
+        [HttpGet("get-all")]
+        public async Task<IActionResult> GetAll([FromServices] IGetAllCamposQuery gettAllCamposQuery)
+        {
+            var data = await gettAllCamposQuery.Execute();
+
+            if (data == null || data.Count == 0)
+            {
+                return StatusCode(StatusCodes.Status404NotFound, ResponseApiService.Response(StatusCodes.Status404NotFound, data));
+            }
+            else
+            {
+                return StatusCode(StatusCodes.Status200OK, ResponseApiService.Response(StatusCodes.Status200OK, data));
+
+            }
         }
     }
 }

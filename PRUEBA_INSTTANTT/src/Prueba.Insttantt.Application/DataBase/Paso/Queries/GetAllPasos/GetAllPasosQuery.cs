@@ -21,6 +21,7 @@ namespace Prueba.Insttantt.Application.DataBase.Paso.Queries.GetAllPasos
             var result = await (from paso in _dataBaseService.Paso
                                 join flujo in _dataBaseService.Flujo
                                 on paso.FlujoId equals flujo.FlujoId
+                                where paso.Estado == "A"
                                 select new GetAllPasosModel
                                 {
                                     PasoId = paso.PasoId,

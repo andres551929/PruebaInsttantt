@@ -8,5 +8,6 @@ namespace Prueba.Insttantt.Application.DataBase.Campo.Queries.GetAllCampos
 {
     public class GetAllCamposModel
     {
+        public string Nombre { get; set; }
     }
 }

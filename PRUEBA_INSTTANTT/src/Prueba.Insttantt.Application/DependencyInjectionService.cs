@@ -3,6 +3,7 @@ using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using Prueba.Insttantt.Application.Configuration;
 using Prueba.Insttantt.Application.DataBase.Campo.Commands;
+using Prueba.Insttantt.Application.DataBase.Campo.Queries.GetAllCampos;
 using Prueba.Insttantt.Application.DataBase.DependenciaPaso.Commands;
 using Prueba.Insttantt.Application.DataBase.DependenciaPaso.Queries.GetAllDependenciaPasos;
 using Prueba.Insttantt.Application.DataBase.Flujo.Commands.CreateFlujo;
@@ -37,6 +38,7 @@ namespace Prueba.Insttantt.Application
             services.AddTransient<IGetAllFlujosQuery, GetAllFlujosQuery>();
             services.AddTransient<IGetAllPasosQuery, GetAllPasosQuery>();
             services.AddTransient<IGetAllDependenciaPasosQuery, GetAllDependenciaPasosQuery>();
+            services.AddTransient<IGetAllCamposQuery, GetAllCamposQuery>();
 
 
             #region Validator
