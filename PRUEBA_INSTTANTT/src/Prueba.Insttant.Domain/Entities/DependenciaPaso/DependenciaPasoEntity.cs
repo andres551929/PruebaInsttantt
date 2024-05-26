@@ -1,10 +1,4 @@
-﻿using Prueba.Insttantt.Domain.Entities.Flujo;
-using Prueba.Insttantt.Domain.Entities.Paso;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Prueba.Insttantt.Domain.Entities.Paso;
 
 namespace Prueba.Insttantt.Domain.Entities.DependenciaPaso
 {

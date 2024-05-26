@@ -1,11 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Prueba.Insttantt.Domain.Entities.Flujo;
 using Prueba.Insttantt.Domain.Entities.Paso;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prueba.Insttantt.Persistence.Configuration
 {
@@ -22,9 +16,9 @@ namespace Prueba.Insttantt.Persistence.Configuration
             entityBuilder.Property(x => x.FechaActualizacion).IsRequired();
             entityBuilder.Property(x => x.Estado).IsRequired();
 
-               entityBuilder.HasOne(x => x.Flujo)
-           .WithMany(x => x.Pasos)
-              .HasForeignKey(x => x.FlujoId);
+            entityBuilder.HasOne(x => x.Flujo)
+        .WithMany(x => x.Pasos)
+           .HasForeignKey(x => x.FlujoId);
 
             entityBuilder.HasMany(x => x.DependenciaPasos)
   .WithOne(x => x.Paso)

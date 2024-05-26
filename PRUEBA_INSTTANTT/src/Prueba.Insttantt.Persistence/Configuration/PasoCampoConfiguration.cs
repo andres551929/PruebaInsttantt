@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Prueba.Insttantt.Domain.Entities.PasoCampo;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prueba.Insttantt.Persistence.Configuration
 {
@@ -27,7 +22,7 @@ namespace Prueba.Insttantt.Persistence.Configuration
             entityBuilder.HasOne(x => x.Campo)
                  .WithMany(x => x.PasosCampos)
                  .HasForeignKey(x => x.CampoId);
-        
-    }
+
+        }
     }
 }

@@ -1,11 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Prueba.Insttantt.Domain.Entities.DependenciaPaso;
-using Prueba.Insttantt.Domain.Entities.Paso;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prueba.Insttantt.Persistence.Configuration
 {

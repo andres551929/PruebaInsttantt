@@ -1,10 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Prueba.Insttantt.Application.DataBase.Campo.Queries.GetAllCampos;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prueba.Insttantt.Application.DataBase.PasoCampo.Queries.GetllPasoCampos
 {
@@ -28,7 +22,7 @@ namespace Prueba.Insttantt.Application.DataBase.PasoCampo.Queries.GetllPasoCampo
                                 where pasoCampo.Estado == "A"
                                 select new GetAllPasoCamposModel
                                 {
-                                    PasoCampoId = pasoCampo.PasoCampoId,                                
+                                    PasoCampoId = pasoCampo.PasoCampoId,
                                     PasoId = paso.PasoId,
                                     CampoId = campo.CampoId,
                                     Tipo = pasoCampo.Tipo,

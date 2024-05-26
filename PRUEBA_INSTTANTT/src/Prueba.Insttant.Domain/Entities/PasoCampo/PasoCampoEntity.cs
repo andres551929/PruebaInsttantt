@@ -1,10 +1,5 @@
 ﻿using Prueba.Insttantt.Domain.Entities.Campo;
 using Prueba.Insttantt.Domain.Entities.Paso;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prueba.Insttantt.Domain.Entities.PasoCampo
 {

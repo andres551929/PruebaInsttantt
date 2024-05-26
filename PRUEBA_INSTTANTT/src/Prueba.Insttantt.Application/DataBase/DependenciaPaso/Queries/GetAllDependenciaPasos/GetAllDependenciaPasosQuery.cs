@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Prueba.Insttantt.Application.DataBase.Paso.Queries.GetAllPasos;
 
 namespace Prueba.Insttantt.Application.DataBase.DependenciaPaso.Queries.GetAllDependenciaPasos
 {
@@ -22,7 +21,7 @@ namespace Prueba.Insttantt.Application.DataBase.DependenciaPaso.Queries.GetAllDe
                                 where dependenciaPaso.Estado == "A"
                                 select new GetAllDependenciaPasosModel
                                 {
-                                   DependenciaPasoId  = dependenciaPaso.DependenciaPasoId,
+                                    DependenciaPasoId = dependenciaPaso.DependenciaPasoId,
                                     PasoId = dependenciaPaso.PasoId,
                                     PasoIdDependiente = dependenciaPaso.PasoIdDependiente,
                                     NombrePasoId = paso.Nombre,

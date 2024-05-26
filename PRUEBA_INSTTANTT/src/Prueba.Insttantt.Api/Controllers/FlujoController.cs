@@ -1,6 +1,5 @@
 ﻿using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Prueba.Insttantt.Application.DataBase.Flujo.Commands.CreateFlujo;
 using Prueba.Insttantt.Application.DataBase.Flujo.Queries.GetAllFlujos;
@@ -33,7 +32,7 @@ namespace Prueba.Insttantt.Api.Controllers
         [HttpGet("get-all")]
         public async Task<IActionResult> GetAll([FromServices] IGetAllFlujosQuery gettAllFlujosQuery)
         {
-      
+
 
 
             var data = await gettAllFlujosQuery.Execute();
@@ -69,5 +68,5 @@ namespace Prueba.Insttantt.Api.Controllers
         }
     }
 
-   
+
 }
